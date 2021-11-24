@@ -85,7 +85,6 @@ const yearBtn = document.querySelector(".table__header_year");
 yearBtn.addEventListener("click", () => {
     const rowWrapper = document.querySelector(".table__row_wrapper");
     rowWrapper.innerHTML = "";
-    console.log(1);
     isAsc = !isAsc;
     const sortedData = quickSort(dataCopy, "year", isAsc);
     renderData(sortedData);
