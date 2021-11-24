@@ -1,0 +1,48 @@
+.table__wrapper {
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 4px;
+}
+
+.table__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.table__header_year {
+    flex: 1;
+}
+
+.table__header_category,
+.table__header_firstname,
+.table__header_lastname,
+.table__header_age,
+.table__header_fullname {
+    flex: 2;
+}
+
+.table__row {
+    display: none;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+.table__row_year {
+    flex: 1;
+}
+
+.table__row_category,
+.table__row_firstname,
+.table__row_lastname,
+.table__row_age,
+.table__row_fullname {
+    flex: 2;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(224, 224, 224, 1);
+
+}
