@@ -1,15 +1,19 @@
 .table__wrapper {
     border: 1px solid rgba(224, 224, 224, 1);
     border-radius: 4px;
+    padding: 10px;
+;
 }
 
 .table__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 50%;
 }
-
+.table__header_search {
+    display: inline;
+    margin-bottom: 20px;
+}
 .table__header_year {
     flex: 1;
 }
@@ -21,11 +25,15 @@
 .table__header_fullname {
     flex: 2;
 }
-
+/*.table__row:first-child {*/
+/*    display: none;*/
+/*}*/
 .table__row {
     display: flex;
     justify-content: space-between;
-    max-width: 50%;
+    /*max-width: 50%;*/
+    padding: 6px;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
 }
 
 .table__row_year {
